@@ -1,0 +1,190 @@
+/* ************** Tag Selectors ************** */
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  /* font-family: "Montserrat", sans-serif; */
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+/* -------------- Class/ID Selectors -------------- */
+#title {
+  background-color: #FF4C68;
+  color: #ffffff;
+  padding: 3% 15% 7%;
+}
+
+/* Navigation Bar  */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", monospace;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+/* Download Buttons */
+.dl-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* iPhone Image  */
+.iphone {
+  /* width: 60%; */
+  transform: rotate(25deg);
+  position: absolute;
+  padding-left: 10%;
+}
+
+#features {
+  background-color: white;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.features-cont {
+  padding: 10% 15%;
+}
+
+.feature-box i {
+  color: #ef8173;
+  padding: 4.5%;
+}
+
+.feature-box i:hover {
+  color: #ff4c68;
+}
+
+.feature-box p {
+  color: #8f8f8f;
+}
+
+#testimonials {
+  background-color: #ef8172;
+  color: white;
+  text-align: center;
+}
+
+.testmon-item {
+  padding: 7% 15%;
+}
+
+.testmon-item p {
+  font-weight: 900;
+  font-size: 4rem;
+}
+
+.testmon-box img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+}
+
+.press-box img {
+  width: 12%;
+  margin: 20px 20px 50px;
+}
+
+#pricing {
+  padding: 5%;
+  text-align: center;
+}
+
+.pricing-card {
+  padding: 3% 2%;
+}
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 5% 10% 3%;
+  color: white;
+}
+
+#footer {
+  text-align: center;
+  padding: 5% 10% 1%;
+}
+
+.footer-cont {
+  padding: 12px;
+}
+
+.footer-img {
+  padding: 0 12px;
+}
+
+
+/* -------------- Media Queries -------------- */
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .navbar {
+    padding-bottom: 2.5rem;
+  }
+
+  .iphone {
+    position: static;
+    transform: rotate(0);
+    padding: 6% 0 0;
+  }
+}
+
+@media (max-width: 421px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 1.7rem;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+  }
+
+  .navbar {
+    padding-bottom: 2.5rem;
+  }
+
+  .navbar-brand {
+    font-size: 1.7rem;
+  }
+
+  .iphone {
+    width: 100%;
+    padding: 12% 0 0;
+  }
+}

@@ -1,0 +1,168 @@
+/************** Tag Selectors **************/
+body {
+  background-color: white;
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #ff5722;
+  font-family: "Great Vibes", cursive;
+  font-size: 6rem;
+  margin: 50px auto 5px auto;
+}
+
+h2 {
+  font-family: "Quicksand", sans-serif;
+  color: #0f3460;
+  font-size: 3rem;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: "Quicksand", sans-serif;
+  color: #1a1a2e;
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+p {
+  font-size: 1.5rem;
+  color: #e94560;
+}
+
+hr {
+  border-style: dotted none none none;
+  border-color: #ff5722;
+  border-width: 10px;
+  opacity: 0.25;
+  width: 30%;
+  margin: 50px auto 50px auto;
+}
+
+a {
+  color: #ff5722;
+  margin: 20px 10px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #1a1a2e;
+}
+
+/************** Class Selectors **************/
+.presentation {
+  text-align: center;
+  background-color: #b2ebf2;
+}
+
+.slogan {
+  margin: 15px auto 50px auto;
+}
+
+.no {
+  text-decoration: underline;
+}
+
+.pres-top-div {
+  padding-top: 100px;
+  position: relative;
+}
+
+.cloud1 {
+  position: absolute;
+  top: 52px;
+  right: 35%;
+}
+
+.cloud2 {
+  position: absolute;
+}
+
+.profile {
+  display: inline-block;
+  width: 50%;
+}
+
+.profile-img {
+  height: 250px;
+  width: 250px;
+}
+
+.zero-img {
+  height: 250px;
+  width: 250px;
+  float: left;
+  margin-right: 30px;
+}
+
+.lorem-img {
+  height: auto;
+  width: auto;
+  float: right;
+}
+
+.lorext {
+  clear: right;
+}
+
+.wtl-img {
+  height: 225px;
+  width: 250px;
+  float: left;
+  margin-right: 30px;
+}
+
+.touch-img {
+  height: 250px;
+  width: 250px;
+}
+
+.skill-row {
+  display: inline-block;
+  width: 50%;
+  margin: 0 auto 100px auto;
+  text-align: left;
+}
+
+.bottom-container {
+  background-color: #b2ebf2;
+  padding: 24px;
+}
+
+.cr {
+  color: black;
+  font-family: monospace;
+  font-size: 1.2rem;
+  margin-bottom: 0;
+}
+
+.btn {
+  background: #0f3460;
+  background-image: -webkit-linear-gradient(top, #0f3460, #16213e);
+  background-image: -moz-linear-gradient(top, #0f3460, #16213e);
+  background-image: -ms-linear-gradient(top, #0f3460, #16213e);
+  background-image: -o-linear-gradient(top, #0f3460, #16213e);
+  background-image: linear-gradient(to bottom, #0f3460, #16213e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-image: -webkit-linear-gradient(top, #16213e, #1a1a2e);
+  background-image: -moz-linear-gradient(top, #16213e, #1a1a2e);
+  background-image: -ms-linear-gradient(top, #16213e, #1a1a2e);
+  background-image: -o-linear-gradient(top, #16213e, #1a1a2e);
+  background-image: linear-gradient(to bottom, #16213e, #1a1a2e);
+  text-decoration: none;
+  color: snow;
+}
+
+/************** #Id Selectors **************/

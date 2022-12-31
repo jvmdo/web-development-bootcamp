@@ -1,0 +1,9 @@
+# Dependency directories
+*/**/node_modules/
+*/**/jspm_packages/
+
+# Others git
+Mongoose Challenge - Authentication App/.git
+Mongoose Challenge - Authentication App/.gitignore
+Version Control - Git and GitHub/.git
+Version Control - Git and GitHub/.gitignore

@@ -1,0 +1,11 @@
+{
+  "name": "hello_npm",
+  "version": "1.0.0",
+  "description": "First of the year NPM",
+  "main": "hello_node.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joao Tu",
+  "license": "ISC"
+}
