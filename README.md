@@ -19,6 +19,22 @@ Become a Full-Stack Web Developer with just ONE course. HTML, CSS, Javascript, N
 
 ## Where to find what I built
 
-My projects' source code are avaiable in this repository under their own directories. Some of them can be run directly in the browser, some need to be run in Node and some need MongoDB running in your machine. Don't forget to run `npm install` as well.
+My projects' source code are contained in this repository under their own directories. A live preview is available for those projects that run directly in the browser.
 
-The only exception is the React projects. They are found at codesandbox.com. [Read this](ReactJS/README.md) for more information.
+React projects are found at [codesandbox.com](ReactJS/README.md).
+
+## Live previews
+
+There is no preview for projects that need Node and MongoDB to be ran. 
+
+- [Bootstrap Challenge - TinDong](https://shorthaired-dapper-coconut.glitch.me/Bootstrap%20Challenge%20-%20TinDog/)
+
+- [CSS - Personal Website](https://shorthaired-dapper-coconut.glitch.me/CSS%20-%20Personal%20Website/)
+
+- [DOM Challenge - Dicee Game](https://shorthaired-dapper-coconut.glitch.me/DOM%20Challenge%20-%20Dicee%20Game/)
+
+- [DOM Challenge 2 - Drum Kit](https://shorthaired-dapper-coconut.glitch.me/DOM%20Challenge%202%20-%20Drum%20Kit/)
+
+- [HTML Personal Website](https://shorthaired-dapper-coconut.glitch.me/HTML%20-%20Personal%20Website/)
+
+- [JQuery Challenge - The Simon Game](https://shorthaired-dapper-coconut.glitch.me/JQuery%20Challenge%20-%20The%20Simon%20Game/)
